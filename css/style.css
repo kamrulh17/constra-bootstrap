@@ -89,18 +89,6 @@ button[type="reset"] {
   padding: 10px 0;
 }
 
-.header-top .header-top-contents {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .header-top .header-top-contents address {
   margin: 0;
   font-family: 'Open-Sans', sans-serif;
@@ -111,18 +99,6 @@ button[type="reset"] {
 .header-top .header-top-contents address .fa-location-dot {
   font-size: 18px;
   margin-right: 5px;
-}
-
-.header-top .header-top-contents .social-links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .header-top .header-top-contents .social-links ul li {
@@ -149,31 +125,10 @@ header .header-contact {
 
 header .header-contact .header-contact-contents {
   padding: 30px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 header .header-contact .header-contact-contents .logo img {
   width: 60%;
-}
-
-header .header-contact .header-contact-contents .contact-items ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 header .header-contact .header-contact-contents .contact-items ul li {
@@ -189,7 +144,6 @@ header .header-contact .header-contact-contents .contact-items ul li:last-child 
 }
 
 header .header-contact .header-contact-contents .contact-items ul li:last-child a {
-  display: block;
   font-size: 14px;
   padding: 12px 30px;
   border-radius: 3px;
@@ -213,31 +167,115 @@ header .header-contact .header-contact-contents .contact-items ul li a, header .
   font-family: 'Open-Sans',sans-serif;
 }
 
-header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 header nav ul li {
   padding-right: 30px;
 }
 
 header nav ul li a {
-  display: block;
   padding: 15px;
   color: var(--white);
   font-family: 'Montserrat',sans-serif;
   font-size: 16px;
   line-height: 40px;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 header nav ul li a:hover {
   color: var(--primary-color);
+}
+
+/* 
+  ==================================================
+                      Banner CSS
+  ==================================================
+*/
+.banner .mySwiper {
+  height: 80vh;
+}
+
+.banner .mySwiper .swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .mySwiper .banner-content h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: var(--white);
+  text-transform: uppercase;
+  margin: 20px 0 10px;
+}
+
+.banner .mySwiper .banner-content h4 {
+  color: var(--white);
+  font-family: 'Open-Sans',sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  margin: 20px 0 10px;
+}
+
+.banner .mySwiper .banner-content .buttons {
+  margin-top: 30px;
+}
+
+.banner .mySwiper .banner-content .buttons a {
+  margin: 0 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--white);
+  background-color: var(--primary-color);
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+}
+
+.banner .mySwiper .banner-content .buttons a:hover {
+  background: #cc9200;
+}
+
+.banner .mySwiper .banner-content .buttons a:last-child {
+  background: none;
+  border: 1px solid var(--primary-color);
+}
+
+.banner .mySwiper .banner-content .buttons a:last-child:hover {
+  background: #cc9200;
+}
+
+.banner .slider-button {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 9;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+}
+
+.banner .slider-button button {
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin: 0 20px;
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+}
+
+.banner .slider-button button span {
+  display: inline-block;
+  font-size: 25px;
+  color: var(--white);
+}
+
+.banner .slider-button button:hover {
+  background: var(--primary-color);
+}
+
+.banner:hover .slider-button {
+  visibility: visible;
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */

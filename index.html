@@ -7,7 +7,7 @@
     <!-- Site Titles -->
     <title>Site Title</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/service-icon1.png" type="image/x-icon">
     <!-- CDN Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- CSS -->   
@@ -28,10 +28,10 @@
 -->
 <div class="header-top">
     <div class="container">
-        <div class="header-top-contents">
+        <div class="header-top-contents d-flex align-items-center justify-content-between">
             <address class="location"><i class="fa-solid fa-location-dot"></i><span>9051 Constra Incorporate, USA</span></address>
             <div class="social-links">
-                <ul>
+                <ul class="d-flex align-items-center justify-content-end">
                     <li><a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
                     <li><a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a></li>
                     <li><a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a></li>
@@ -44,24 +44,24 @@
 <header>
     <div class="header-contact">
         <div class="container">
-            <div class="header-contact-contents">
+            <div class="header-contact-contents d-flex align-items-center justify-content-between">
                 <div class="logo"><a href="javascript:void(0)"><img src="images/logo.png" alt="Site Logo" class="img-fluid"></a></div>
                 <div class="contact-items">
-                    <ul>
+                    <ul class="d-flex align-items-center justify-content-center">
                         <li>
                             <p>Call Us</p>
-                            <a href="tel:(+9) 847-291-4353">(+9) 847-291-4353</a>
+                            <a href="tel:(+9) 847-291-4353" class="d-block">(+9) 847-291-4353</a>
                         </li>
                         <li>
                             <p>Email Us</p>
-                            <a href="mailto:office@Constra.com">office@Constra.com</a>
+                            <a href="mailto:office@Constra.com" class="d-block">office@Constra.com</a>
                         </li>
                         <li>
                             <p>Global Certificate</p>
                             <h4>ISO 9001:2017</h4>
                         </li>
                         <li>
-                            <a href="javascript:void(0)">Help Center</a>
+                            <a href="javascript:void(0)" class="d-block">Help Center</a>
                         </li>
                     </ul>
                 </div>
@@ -70,14 +70,14 @@
     </div>
     <nav>
         <div class="container">
-            <ul>
-                <li><a href="javscript:void(0)">home</a></li>
-                <li><a href="javscript:void(0)">company</a></li>
-                <li><a href="javscript:void(0)">projects</a></li>
-                <li><a href="javscript:void(0)">services</a></li>
-                <li><a href="javscript:void(0)">features</a></li>
-                <li><a href="javscript:void(0)">news</a></li>
-                <li><a href="javscript:void(0)">contact</a></li>
+            <ul class="d-flex align-items-center">
+                <li><a href="javscript:void(0)" class="d-block text-uppercase">home</a></li>
+                <li><a href="javscript:void(0)" class="d-block text-uppercase">company</a></li>
+                <li><a href="javscript:void(0)" class="d-block text-uppercase">projects</a></li>
+                <li><a href="javscript:void(0)" class="d-block text-uppercase">services</a></li>
+                <li><a href="javscript:void(0)" class="d-block text-uppercase">features</a></li>
+                <li><a href="javscript:void(0)" class="d-block text-uppercase">news</a></li>
+                <li><a href="javscript:void(0)" class="d-block text-uppercase">contact</a></li>
             </ul>
         </div>
     </nav>
@@ -88,84 +88,77 @@
     ==================================================
 -->
 
+<main>
+<!-- 
+    --------------------------------------------------
+                        Banner Starts
+    --------------------------------------------------
+!-->
+<section class="banner position-relative">
+    <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide d-flex align-items-center" style="background: url(./images/bg3.jpg);">
+                <div class="container">
+                    <div class="banner-content d-flex flex-column justify-content-center text-end">
+                        <h2>meet our engineers</h2>
+                        <h1>we believe in sustainabilty</h1>
+                        <h4>We will deal with your failure that determines how you achieve success.</h4>
+                        <div class="buttons">
+                            <a href="javascript:void(0)" class="text-uppercase">get free qoute</a>
+                            <a href="javascript:void(0)" class="text-uppercase">learn about us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide d-flex align-items-center" style="background: url(./images/bg2.jpg);">
+                <div class="container">
+                    <div class="banner-content d-flex flex-column justify-content-center text-start">
+                        <h2>17 years of cexcellence in</h2>
+                        <h1>construction history</h1>
+                        <h4>We will deal with your failure that determines how you achieve success.</h4>
+                        <div class="buttons">
+                            <a href="javascript:void(0)" class="text-uppercase" style="background: var(--primary-color);">connect with us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide d-flex align-items-center" style="background: url(./images/bg1.jpg);">
+                <div class="container">
+                    <div class="banner-content d-flex flex-column justify-content-center text-center"">
+                        <h2>when services matters</h2>
+                        <h1>your choice is simple</h1>
+                        <h4>We will deal with your failure that determines how you achieve success.</h4>
+                        <div class="buttons d-inline-block">
+                            <a href="javascript:void(0)" class="text-uppercase">our servoces</a>
+                            <a href="javascript:void(0)" class="text-uppercase">contact now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="slider-button position-absolute d-flex align-items-center justify-content-between w-100">
+        <button class="swiper-prev" type="button">
+        <span><i class="fa-solid fa-chevron-left"></i></span>
+        </button>
+        <button class="swiper-next" type="button">
+        <span><i class="fa-solid fa-chevron-right"></i></span>
+        </button>
+    </div>
+</section>
+<!--
+    ==================================================
+                        Banner Ends
+    ==================================================
+!-->
 <!-- 
     ==================================================
                         Banner Starts
     ==================================================
 -->
 
-<!--
-    ==================================================
-                        Banner Ends
-    ==================================================
--->
-<!-- 
-    ==================================================
-                        Banner Starts
-    ==================================================
--->
-
-<!--
-    ==================================================
-                        Banner Ends
-    ==================================================
--->
-<!-- 
-    ==================================================
-                        Banner Starts
-    ==================================================
--->
-
-<!--
-    ==================================================
-                        Banner Ends
-    ==================================================
--->
-<!-- 
-    ==================================================
-                        Banner Starts
-    ==================================================
--->
-
-<!--
-    ==================================================
-                        Banner Ends
-    ==================================================
--->
-<!-- 
-    ==================================================
-                        Banner Starts
-    ==================================================
--->
-
-<!--
-    ==================================================
-                        Banner Ends
-    ==================================================
--->
-<!-- 
-    ==================================================
-                        Banner Starts
-    ==================================================
--->
-
-<!--
-    ==================================================
-                        Banner Ends
-    ==================================================
--->
-<!-- 
-    ==================================================
-                        Banner Starts
-    ==================================================
--->
-
-<!--
-    ==================================================
-                        Banner Ends
-    ==================================================
--->
-
+</main>
 
 
 
