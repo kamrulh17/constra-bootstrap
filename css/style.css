@@ -79,6 +79,13 @@ button[type="reset"] {
                       re-usable components
   ==================================================
   */
+.section-title h4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* 
   ==================================================
                       Header CSS
@@ -325,7 +332,7 @@ header nav ul li a:hover {
 }
 
 .about span {
-  font-size: 30px;
+  font-size: 35px;
   color: var(--primary-color);
 }
 
@@ -350,6 +357,34 @@ header nav ul li a:hover {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
+  color: var(--primary-color);
+}
+
+/* 
+  ==================================================
+                      What we do CSS
+  ==================================================
+*/
+.services {
+  padding: 70px 0;
+}
+
+.services .section-title {
+  margin-bottom: 50px;
+}
+
+.services .service-item .service-img {
+  width: 30%;
+}
+
+.services .service-item .service-info a {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color2);
+}
+
+.services .service-item .service-info a:hover {
   color: var(--primary-color);
 }
 /*# sourceMappingURL=style.css.map */

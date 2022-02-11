@@ -81,6 +81,14 @@
   ==================================================
   */
   
+.section-title{
+    h4{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
   
   /* 
   ==================================================
@@ -312,7 +320,7 @@ header{
         font-weight: 300;
     }
     span{
-        font-size: 30px;
+        font-size: 35px;
         color: var(--primary-color);
     }
 }
@@ -337,6 +345,34 @@ header{
             font-size: 16px;
             font-weight: 700;
             color: var(--primary-color);
+        }
+    }
+}
+
+/* 
+  ==================================================
+                      What we do CSS
+  ==================================================
+*/
+.services{
+    padding: 70px 0;
+    .section-title{
+        margin-bottom: 50px;
+    }
+    .service-item{
+        .service-img{
+            width: 30%;
+        }
+        .service-info{
+            a{
+                font-size: 16px;
+                font-weight: 700;
+                font-family: 'Montserrat', sans-serif;
+                color: var(--color2);
+                &:hover{
+                    color: var(--primary-color);
+                }
+            }
         }
     }
 }
