@@ -124,7 +124,7 @@ header{
     .header-contact{
         background: var(--white);
         .header-contact-contents{
-            padding: 30px 0;
+            padding: 25px 0;
             .logo{
                 img{
                     width: 60%;
@@ -193,7 +193,7 @@ header{
 */
 .banner{
     .mySwiper{
-        height: 80vh;
+        height: 90vh;
         .swiper-slide{
             background-repeat: no-repeat;
             background-position: center;
@@ -266,6 +266,77 @@ header{
         .slider-button{
             visibility: visible;
             opacity: 1;
+        }
+    }
+}
+
+/* 
+  ==================================================
+                      Call to action CSS
+  ==================================================
+*/
+.call-to-action{
+    z-index: 9;
+    margin-top: -70px;
+    .content-box{
+        padding: 30px 20px;
+        background: var(--primary-color);
+        h4{
+            font-family: 'Montserrat',sans-serif;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: var(--white);
+            font-weight: 700;
+        }
+        a{
+            font-family: 'Montserrat',sans-serif;
+            padding: 10px 20px;
+            background: #23282d;
+            color: var(--white);
+            font-weight: 600;
+            &:hover{
+                background: var(--color1);
+            }
+        }
+    }
+}
+
+/* 
+  ==================================================
+                      About CSS
+  ==================================================
+*/
+.about{
+    h4{
+        color: var(--color3);
+        font-weight: 300;
+    }
+    span{
+        font-size: 30px;
+        color: var(--primary-color);
+    }
+}
+
+/* 
+  ==================================================
+                      Statistic CSS
+  ==================================================
+*/
+.statistics{
+    background: var(--color1);
+    padding: 50px 0;
+    .statistic-item{
+        h5{
+            font-family: 'Montserrat', sans-serif;
+            color: var(--white);
+            font-size: 48px;
+            font-weight: 700;
+        }
+        h4{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--primary-color);
         }
     }
 }

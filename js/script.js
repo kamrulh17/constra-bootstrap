@@ -6,6 +6,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     direction: "horizontal",
     loop: true,
+    effect: 'fade',
     autoplay: {
         delay: 5000,
     },
@@ -22,3 +23,9 @@ var swiper = new Swiper(".mySwiper", {
   }, function() {
       (this).swiper.autoplay.start();
   });
+
+  /* ===== counter-up ===== */
+$('.counter').counterUp({
+  delay: 100,
+  time: 3000,
+});

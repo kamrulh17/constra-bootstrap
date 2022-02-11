@@ -124,7 +124,7 @@ header .header-contact {
 }
 
 header .header-contact .header-contact-contents {
-  padding: 30px 0;
+  padding: 25px 0;
 }
 
 header .header-contact .header-contact-contents .logo img {
@@ -190,7 +190,7 @@ header nav ul li a:hover {
   ==================================================
 */
 .banner .mySwiper {
-  height: 80vh;
+  height: 90vh;
 }
 
 .banner .mySwiper .swiper-slide {
@@ -277,5 +277,79 @@ header nav ul li a:hover {
 .banner:hover .slider-button {
   visibility: visible;
   opacity: 1;
+}
+
+/* 
+  ==================================================
+                      Call to action CSS
+  ==================================================
+*/
+.call-to-action {
+  z-index: 9;
+  margin-top: -70px;
+}
+
+.call-to-action .content-box {
+  padding: 30px 20px;
+  background: var(--primary-color);
+}
+
+.call-to-action .content-box h4 {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.call-to-action .content-box a {
+  font-family: 'Montserrat',sans-serif;
+  padding: 10px 20px;
+  background: #23282d;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.call-to-action .content-box a:hover {
+  background: var(--color1);
+}
+
+/* 
+  ==================================================
+                      About CSS
+  ==================================================
+*/
+.about h4 {
+  color: var(--color3);
+  font-weight: 300;
+}
+
+.about span {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+/* 
+  ==================================================
+                      Statistic CSS
+  ==================================================
+*/
+.statistics {
+  background: var(--color1);
+  padding: 50px 0;
+}
+
+.statistics .statistic-item h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.statistics .statistic-item h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary-color);
 }
 /*# sourceMappingURL=style.css.map */
