@@ -326,6 +326,10 @@ header nav ul li a:hover {
                       About CSS
   ==================================================
 */
+.about {
+  padding: 70px 0;
+}
+
 .about h4 {
   color: var(--color3);
   font-weight: 300;
@@ -386,5 +390,68 @@ header nav ul li a:hover {
 
 .services .service-item .service-info a:hover {
   color: var(--primary-color);
+}
+
+/* 
+  ==================================================
+                      What we do CSS
+  ==================================================
+*/
+.projects {
+  background: #f9f9f9;
+  padding: 80px 0;
+}
+
+.projects .gallery-btn-group {
+  margin: 0 50px;
+  border-bottom: 3px solid var(--primary-color);
+  margin-bottom: 30px;
+}
+
+.projects .gallery-btn-group button {
+  background: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color2);
+  padding: 10px 25px;
+}
+
+.projects .gallery-btn-group .mixitup-control-active {
+  background: var(--primary-color);
+}
+
+.projects .gallery-image {
+  z-index: 9;
+}
+
+.projects .gallery-image::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 0;
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+  z-index: 99;
+}
+
+.projects .gallery-image img {
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+}
+
+.projects .gallery-image:hover::before {
+  opacity: 1;
+}
+
+.projects .gallery-image:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */

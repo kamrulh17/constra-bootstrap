@@ -29,3 +29,5 @@ $('.counter').counterUp({
   delay: 100,
   time: 3000,
 });
+
+var mixer = mixitup('.gallery-container');

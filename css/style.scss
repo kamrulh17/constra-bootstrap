@@ -315,6 +315,7 @@ header{
   ==================================================
 */
 .about{
+    padding: 70px 0;
     h4{
         color: var(--color3);
         font-weight: 300;
@@ -374,5 +375,63 @@ header{
                 }
             }
         }
+    }
+}
+
+/* 
+  ==================================================
+                      What we do CSS
+  ==================================================
+*/
+.projects{
+    background: #f9f9f9;
+    padding: 80px 0;
+    .gallery-btn-group{
+        margin: 0 50px;
+        border-bottom: 3px solid var(--primary-color);
+        margin-bottom: 30px;
+        button{
+            background: none;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--color2);
+            padding: 10px 25px;
+        }
+        .mixitup-control-active{
+            background: var(--primary-color);
+        }
+    }
+    .gallery-image{
+        z-index: 9;
+        &::before{
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: 100%;
+            top:0;
+            left:0;
+            background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+            transform: scale(1.2);
+            opacity: 0;
+            transition: .3s all linear;
+            z-index: 99;
+        }
+        img{
+            transition: .3s all linear;
+        }
+        &:hover{
+            &::before{
+                opacity: 1;
+            }
+            img{
+                transform: scale(1.2);
+            }
+        }
+        // img{
+        //     transition: .3s all linear;
+        //     &:hover{
+        //         transform: scale(1.2);
+        //     }
+        // }
     }
 }
