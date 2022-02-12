@@ -446,6 +446,59 @@ header nav ul li a:hover {
   transition: .3s all linear;
 }
 
+.projects .gallery-image > a {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  top: 10px;
+  right: 10px;
+  background: var(--primary-color);
+  color: var(--white);
+  font-size: 20px;
+  z-index: 999;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+}
+
+.projects .gallery-image .project-info {
+  padding: 0 30px;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+  z-index: 999;
+}
+
+.projects .gallery-image .project-info a {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--white);
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+}
+
+.projects .gallery-image .project-info a:hover {
+  color: var(--primary-color);
+}
+
+.projects .gallery-image .project-info h4 {
+  font-size: 12px;
+  background: var(--primary-color);
+  color: var(--color2);
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding: 10px;
+}
+
 .projects .gallery-image:hover::before {
   opacity: 1;
 }
@@ -453,5 +506,20 @@ header nav ul li a:hover {
 .projects .gallery-image:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.projects .gallery-image:hover .project-info {
+  opacity: 1 !important;
+  visibility: visible !important;
+  top: 55%;
+}
+
+.projects .gallery-image:hover > a {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.lity-close {
+  position: absolute !important;
 }
 /*# sourceMappingURL=style.css.map */
