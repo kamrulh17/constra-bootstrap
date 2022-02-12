@@ -31,3 +31,15 @@ $('.counter').counterUp({
 });
 
 var mixer = mixitup('.gallery-container');
+
+// $(document).ready(function() {
+//   $('.image-link').magnificPopup({type:'image'});
+// });
+
+$('.test-popup-link').magnificPopup({
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true,
+  },
+});

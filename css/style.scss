@@ -386,6 +386,21 @@ header{
 .projects{
     background: #f9f9f9;
     padding: 80px 0;
+    .gallery-container{
+        text-align: center;
+        .view-all-btn{
+            padding: 10px 15px;
+            background: var(--primary-color);
+            color: var(--white);
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            transition: .3s all linear;
+            &:hover{
+                background: var(--black);
+            }
+        }
+    }
     .gallery-btn-group{
         margin: 0 50px;
         border-bottom: 3px solid var(--primary-color);
@@ -420,11 +435,11 @@ header{
             transition: .3s all linear;
         }
         &>a{
-            height: 30px;
-            width: 30px;
-            line-height: 30px;
-            top: 10px;
-            right: 10px;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            top: 0;
+            right: 0;
             background: var(--primary-color);
             color: var(--white);
             font-size: 20px;
@@ -433,6 +448,7 @@ header{
             transition: .3s all linear;
         }
         .project-info{
+            text-align: left;
             padding: 0 30px;
             opacity: 0;
             visibility: hidden;
@@ -480,6 +496,9 @@ header{
         }
     }
 }
-.lity-close{
-    position: absolute !important;
+.mfp-wrap{
+    cursor: default;
+}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close{
+    cursor: pointer !important;
 }
