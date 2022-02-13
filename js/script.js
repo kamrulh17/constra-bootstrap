@@ -36,10 +36,19 @@ var mixer = mixitup('.gallery-container');
 //   $('.image-link').magnificPopup({type:'image'});
 // });
 
-$('.test-popup-link').magnificPopup({
-  type: 'image',
-  // other options
-  gallery:{
-    enabled:true,
-  },
-});
+// $('.test-popup-link').magnificPopup({
+//   type: 'image',
+//   gallery:{
+//     enabled:true,
+//   },
+// });
+
+lightbox.option({
+  alwaysShowNavOnTouchDevices:true,
+  disableScrolling:true,
+  fadeDuration:300,
+  imageFadeDuration:300,
+  resizeDuration:300,
+  'wrapAround': true,
+})
+
