@@ -200,7 +200,7 @@ header{
   ==================================================
 */
 .banner{
-    .mySwiper{
+    .bannerSwiper{
         height: 90vh;
         .swiper-slide{
             background-repeat: no-repeat;
@@ -356,7 +356,7 @@ header{
   ==================================================
 */
 .services{
-    padding: 70px 0;
+    padding: 70px 0 0;
     .section-title{
         margin-bottom: 50px;
     }
@@ -522,4 +522,72 @@ header{
     background: url(../images/close.png);
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+
+/* 
+  ==================================================
+                      Testimonial CSS
+  ==================================================
+*/
+.testimonial{
+    padding: 80px 0;
+    .section-title{
+        h2{
+            font-size: 26px;
+            font-weight: 600;
+        }
+    }
+    .swiper-slide{
+            &>p{
+                position: relative;
+                padding: 0 60px;
+                font-family: 'Open-Sans', sans-serif;
+                font-size: 16px;
+                font-style: italic;
+                line-height: 26px;
+                &::before{
+                    position: absolute;
+                    content: "\f10d";
+                    font-family: "Font Awesome 5 Free";
+                    position: absolute;
+                    font-size: 40px;
+                    left: 0;
+                    top: 0;
+                    margin-right: 40px;
+                    font-weight: 700;
+                    color: #ffc009;
+            }
+        }
+        .client{
+            padding: 0 50px;
+            img{
+                border-radius: 10px;
+            }
+            h4{
+                font-size: 16px;
+                font-weight: 700;
+                color: var(--primary-color);
+            }
+        }
+    }
+    .client-part{
+        .client-logo{
+            min-height: 105px;
+            padding: 20px;
+            border: 1px solid #dadada;
+            a{
+                text-align: center;
+                &:hover{
+                    img{
+                        filter: grayscale(0);
+                    }
+                }
+            }
+            img{
+                width: 75%;
+                filter: grayscale(100%);
+            }
+        }
+    }
 }

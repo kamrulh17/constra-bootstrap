@@ -196,17 +196,17 @@ header nav ul li a:hover {
                       Banner CSS
   ==================================================
 */
-.banner .mySwiper {
+.banner .bannerSwiper {
   height: 90vh;
 }
 
-.banner .mySwiper .swiper-slide {
+.banner .bannerSwiper .swiper-slide {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.banner .mySwiper .banner-content h2 {
+.banner .bannerSwiper .banner-content h2 {
   font-size: 30px;
   font-weight: 300;
   color: var(--white);
@@ -214,7 +214,7 @@ header nav ul li a:hover {
   margin: 20px 0 10px;
 }
 
-.banner .mySwiper .banner-content h4 {
+.banner .bannerSwiper .banner-content h4 {
   color: var(--white);
   font-family: 'Open-Sans',sans-serif;
   font-size: 24px;
@@ -222,11 +222,11 @@ header nav ul li a:hover {
   margin: 20px 0 10px;
 }
 
-.banner .mySwiper .banner-content .buttons {
+.banner .bannerSwiper .banner-content .buttons {
   margin-top: 30px;
 }
 
-.banner .mySwiper .banner-content .buttons a {
+.banner .bannerSwiper .banner-content .buttons a {
   margin: 0 10px;
   padding: 15px 30px;
   font-size: 16px;
@@ -238,16 +238,16 @@ header nav ul li a:hover {
   transition: .3s all linear;
 }
 
-.banner .mySwiper .banner-content .buttons a:hover {
+.banner .bannerSwiper .banner-content .buttons a:hover {
   background: #cc9200;
 }
 
-.banner .mySwiper .banner-content .buttons a:last-child {
+.banner .bannerSwiper .banner-content .buttons a:last-child {
   background: none;
   border: 1px solid var(--primary-color);
 }
 
-.banner .mySwiper .banner-content .buttons a:last-child:hover {
+.banner .bannerSwiper .banner-content .buttons a:last-child:hover {
   background: #cc9200;
 }
 
@@ -370,7 +370,7 @@ header nav ul li a:hover {
   ==================================================
 */
 .services {
-  padding: 70px 0;
+  padding: 70px 0 0;
 }
 
 .services .section-title {
@@ -566,5 +566,76 @@ header nav ul li a:hover {
   background: url(../images/close.png);
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/* 
+  ==================================================
+                      Testimonial CSS
+  ==================================================
+*/
+.testimonial {
+  padding: 80px 0;
+}
+
+.testimonial .section-title h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.testimonial .swiper-slide > p {
+  position: relative;
+  padding: 0 60px;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+}
+
+.testimonial .swiper-slide > p::before {
+  position: absolute;
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-size: 40px;
+  left: 0;
+  top: 0;
+  margin-right: 40px;
+  font-weight: 700;
+  color: #ffc009;
+}
+
+.testimonial .swiper-slide .client {
+  padding: 0 50px;
+}
+
+.testimonial .swiper-slide .client img {
+  border-radius: 10px;
+}
+
+.testimonial .swiper-slide .client h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.testimonial .client-part .client-logo {
+  min-height: 105px;
+  padding: 20px;
+  border: 1px solid #dadada;
+}
+
+.testimonial .client-part .client-logo a {
+  text-align: center;
+}
+
+.testimonial .client-part .client-logo a:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.testimonial .client-part .client-logo img {
+  width: 75%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 /*# sourceMappingURL=style.css.map */
