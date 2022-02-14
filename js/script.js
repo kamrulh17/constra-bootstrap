@@ -43,6 +43,7 @@ lightbox.option({
   'wrapAround': true,
 });
 
+/* testimonial slider */
 var swiper = new Swiper(".testimonialSwiper", {
   autoplayDisableOnInteraction: false,
   pagination: {
