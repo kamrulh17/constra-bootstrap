@@ -75,6 +75,9 @@
       cursor: pointer;
   }
   
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
   /* 
   ==================================================
                       re-usable components
@@ -86,7 +89,6 @@
         font-size: 18px;
         line-height: 28px;
         font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
     }
 }
 
@@ -97,7 +99,6 @@
     color: var(--white);
     font-size: 14px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
     transition: .3s all linear;
     &:hover{
         background: var(--black);
@@ -195,7 +196,6 @@ header{
                 a{
                     padding: 15px;
                     color: var(--white);
-                    font-family: 'Montserrat',sans-serif;
                     font-size: 16px;
                     line-height: 40px;
                     font-weight: 600;
@@ -304,14 +304,12 @@ header{
         padding: 30px 20px;
         background: var(--primary-color);
         h4{
-            font-family: 'Montserrat',sans-serif;
             font-size: 20px;
             letter-spacing: 1px;
             color: var(--white);
             font-weight: 700;
         }
         a{
-            font-family: 'Montserrat',sans-serif;
             padding: 10px 20px;
             background: #23282d;
             color: var(--white);
@@ -350,13 +348,11 @@ header{
     padding: 50px 0;
     .statistic-item{
         h5{
-            font-family: 'Montserrat', sans-serif;
             color: var(--white);
             font-size: 48px;
             font-weight: 700;
         }
         h4{
-            font-family: 'Montserrat', sans-serif;
             font-size: 16px;
             font-weight: 700;
             color: var(--primary-color);
@@ -382,7 +378,6 @@ header{
             a{
                 font-size: 16px;
                 font-weight: 700;
-                font-family: 'Montserrat', sans-serif;
                 color: var(--color2);
                 &:hover{
                     color: var(--primary-color);
@@ -463,7 +458,6 @@ header{
                 margin-bottom: 15px;
                 font-size: 20px;
                 font-weight: 700;
-                font-family: 'Montserrat', sans-serif;
                 color: var(--white);
                 transition: .3s all linear;
                 &:hover{
@@ -474,7 +468,6 @@ header{
                 font-size: 12px;
                 background: var(--primary-color);
                 color: var(--color2);
-                font-family: 'Montserrat', sans-serif;
                 display: inline-block;
                 padding: 10px;
             }
@@ -629,13 +622,11 @@ header{
     background: var(--primary-color);
     .newsletter-left{
         h4{
-            font-family: 'Montserrat', sans-serif;
             font-size: 18px;
             font-weight: 700;
             color: var(--color2);
         }
         h3{
-            font-family:'Montserrat', sans-serif;
             font-size: 24px;
             color: var(--white);
             font-weight: 700;

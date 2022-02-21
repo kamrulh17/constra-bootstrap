@@ -74,6 +74,10 @@ button[type="reset"] {
   cursor: pointer;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* 
   ==================================================
                       re-usable components
@@ -83,7 +87,6 @@ button[type="reset"] {
   font-size: 18px;
   line-height: 28px;
   font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .view-all {
@@ -93,7 +96,6 @@ button[type="reset"] {
   color: var(--white);
   font-size: 14px;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
   -webkit-transition: .3s all linear;
   transition: .3s all linear;
 }
@@ -198,7 +200,6 @@ header nav ul li {
 header nav ul li a {
   padding: 15px;
   color: var(--white);
-  font-family: 'Montserrat',sans-serif;
   font-size: 16px;
   line-height: 40px;
   font-weight: 600;
@@ -319,7 +320,6 @@ header nav ul li a:hover {
 }
 
 .call-to-action .content-box h4 {
-  font-family: 'Montserrat',sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
   color: var(--white);
@@ -327,7 +327,6 @@ header nav ul li a:hover {
 }
 
 .call-to-action .content-box a {
-  font-family: 'Montserrat',sans-serif;
   padding: 10px 20px;
   background: #23282d;
   color: var(--white);
@@ -368,14 +367,12 @@ header nav ul li a:hover {
 }
 
 .statistics .statistic-item h5 {
-  font-family: 'Montserrat', sans-serif;
   color: var(--white);
   font-size: 48px;
   font-weight: 700;
 }
 
 .statistics .statistic-item h4 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: var(--primary-color);
@@ -401,7 +398,6 @@ header nav ul li a:hover {
 .services .service-item .service-info a {
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
   color: var(--color2);
 }
 
@@ -501,7 +497,6 @@ header nav ul li a:hover {
   margin-bottom: 15px;
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
   color: var(--white);
   -webkit-transition: .3s all linear;
   transition: .3s all linear;
@@ -515,7 +510,6 @@ header nav ul li a:hover {
   font-size: 12px;
   background: var(--primary-color);
   color: var(--color2);
-  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   padding: 10px;
 }
@@ -689,14 +683,12 @@ header nav ul li a:hover {
 }
 
 .newsletter .newsletter-left h4 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: var(--color2);
 }
 
 .newsletter .newsletter-left h3 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: var(--white);
   font-weight: 700;
