@@ -87,7 +87,7 @@ button[type="reset"] {
 }
 
 .view-all {
-  padding: 12px 15px;
+  padding: 12px 20px;
   border-radius: 3px;
   background: var(--primary-color);
   color: var(--white);
@@ -424,9 +424,8 @@ header nav ul li a:hover {
 }
 
 .projects .gallery-btn-group {
-  margin: 0 50px;
   border-bottom: 3px solid var(--primary-color);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .projects .gallery-btn-group button {
@@ -452,8 +451,8 @@ header nav ul li a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   opacity: 0;
@@ -685,6 +684,7 @@ header nav ul li a:hover {
   ==================================================
 */
 .newsletter {
+  overflow: hidden;
   background: var(--primary-color);
 }
 
@@ -776,5 +776,44 @@ header nav ul li a:hover {
 
 .blog .blog-item a:hover {
   color: var(--primary-color);
+}
+
+/* 
+  ==================================================
+                      Blog CSS
+  ==================================================
+*/
+footer {
+  background: #030303;
+  padding: 80px 0 0;
+}
+
+footer .copyright {
+  padding: 30px 0;
+  background: var(--primary-color);
+}
+
+footer .copyright .copyright-content p {
+  color: #111;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Open-Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+footer .copyright .copyright-content ul li {
+  margin-left: 20px;
+}
+
+footer .copyright .copyright-content ul li a {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #111111;
+}
+
+footer .copyright .copyright-content ul li a:hover {
+  color: var(--white);
 }
 /*# sourceMappingURL=style.css.map */

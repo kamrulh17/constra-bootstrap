@@ -91,7 +91,7 @@
 }
 
 .view-all{
-    padding: 12px 15px;
+    padding: 12px 20px;
     border-radius: 3px;
     background: var(--primary-color);
     color: var(--white);
@@ -402,24 +402,10 @@ header{
     padding: 80px 0;
     .gallery-container{
         text-align: center;
-        // .view-all-btn{
-        //     padding: 12px 15px;
-        //     border-radius: 3px;
-        //     background: var(--primary-color);
-        //     color: var(--white);
-        //     font-size: 14px;
-        //     font-weight: 600;
-        //     font-family: 'Montserrat', sans-serif;
-        //     transition: .3s all linear;
-        //     &:hover{
-        //         background: var(--black);
-        //     }
-        // }
     }
     .gallery-btn-group{
-        margin: 0 50px;
         border-bottom: 3px solid var(--primary-color);
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         button{
             background: none;
             font-size: 14px;
@@ -440,7 +426,7 @@ header{
             width: 100%;
             top:0;
             left:0;
-            background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+            background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
             transform: scale(1.2);
             opacity: 0;
             transition: .3s all linear;
@@ -639,6 +625,7 @@ header{
   ==================================================
 */
 .newsletter{
+    overflow: hidden;
     background: var(--primary-color);
     .newsletter-left{
         h4{
@@ -718,6 +705,44 @@ header{
             transition: .1s all linear;
             &:hover{
                 color: var(--primary-color);
+            }
+        }
+    }
+}
+
+/* 
+  ==================================================
+                      Blog CSS
+  ==================================================
+*/
+footer{
+    background: #030303;
+    padding: 80px 0 0;
+    .copyright{
+        padding: 30px 0;
+        background: var(--primary-color);
+        .copyright-content{
+            p{
+                color: #111;
+                font-size: 12px;
+                font-weight: 600;
+                font-family: 'Open-Sans', sans-serif;
+                letter-spacing: 1px;
+            }
+            ul{
+                li{
+                    margin-left: 20px;
+                    a{
+                        font-family: 'Open-Sans', sans-serif;
+                        font-size: 12px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        color: #111111;
+                        &:hover{
+                            color: var(--white);
+                        }
+                    }
+                }
             }
         }
     }
