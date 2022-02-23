@@ -208,6 +208,48 @@ header{
     }
 }
 
+/*========== search bar customization ==========*/
+.search-btn{
+    background: none;
+    color: #999999;
+    font-size: 18px;
+}
+.search-form{
+    position: absolute;
+    right: 0;
+    top: 200%;
+    z-index: 9;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s all linear;
+}
+.cross{
+    display: none;
+}
+.open-cross{
+    display: block;
+}
+.open-search-bar{
+    top: 180%;
+    opacity: 1;
+    visibility: visible;
+}
+.search-form label{
+    overflow: hidden;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    top: 0;
+    left: 0;
+}
+.search-form input{
+    color: #fff;
+    height: 65px;
+    width: 300px;
+    padding: 5px;
+    background:#23282d;
+    border: 15px solid rgba(0,0,0,0.6);
+}
 /* 
   ==================================================
                       Banner CSS

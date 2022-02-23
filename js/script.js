@@ -1,3 +1,9 @@
+
+/* toggler btn activation */
+$(".search-btn").click(function(){
+  $(".search-form").toggleClass("open-search-bar");
+});
+
 /* --swiper slider -- */
 var swiper = new Swiper(".bannerSwiper", {
     autoplayDisableOnInteraction: false,
